@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jats in Bollywood - Jat Universal</title>
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="JRstyle.css">
+  <style>
+    /* Page-specific content styles only */
+    .actors-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .actor-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    .actor-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }
+    .actor-image {
+      height: 300px;
+      background: var(--light-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .actor-image img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+    .actor-info {
+      padding: 1.5rem;
+    }
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('bollywood-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html"><img src="jat.png" alt="Jat Universal Logo" class="logo"></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="JatRegiment.html">JatRegiment</a></li>
+        <li><a href="JatB.html" class="active">People</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>Jats in Bollywood</h1>
+            <p class="hero-text">Discover the remarkable contributions of Jat actors, directors and artists who have shaped Indian cinema with their talent and charisma.</p>
+        </section>
+
+        <section class="content-box">
+            <h2>Spotlight on Jat Talent</h2>
+            <p>The Jat community has produced some of Bollywood's most iconic stars. From legendary actors to rising talents, Jats have left an indelible mark on Indian cinema.</p>
+        </section>
+
+        <section class="actors-grid">
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="dara-singh.jpg" alt="Dara Singh">
+                </div>
+                <div class="actor-info">
+                    <h3>Dara Singh</h3>
+                    <p>Legendary wrestler and actor known for his roles in classic films and as Hanuman in Ramayan.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="dharmendra.jpg" alt="Dharmendra">
+                </div>
+                <div class="actor-info">
+                    <h3>Dharmendra</h3>
+                    <p>One of Bollywood's most beloved stars with a career spanning over 5 decades.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="sunny-deol.jpg" alt="Sunny Deol">
+                </div>
+                <div class="actor-info">
+                    <h3>Sunny Deol</h3>
+                    <p>Action superstar known for iconic roles in films like Ghayal and Gadar.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="bobby-deol.jpg" alt="Bobby Deol">
+                </div>
+                <div class="actor-info">
+                    <h3>Bobby Deol</h3>
+                    <p>Versatile actor known for his roles in romantic and action films.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="randeep-hooda.jpg" alt="Randeep Hooda">
+                </div>
+                <div class="actor-info">
+                    <h3>Randeep Hooda</h3>
+                    <p>Intense performer known for his method acting in films like Sarbjit.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="malliaka-sherawat.jpg" alt="Mallika Sherawat">
+                </div>
+                <div class="actor-info">
+                    <h3>Mallika Sherawat</h3>
+                    <p>Bold and beautiful actress who redefined female roles in Bollywood.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="jimmy-shergill.jpg" alt="Jimmy Shergill">
+                </div>
+                <div class="actor-info">
+                    <h3>Jimmy Shergill</h3>
+                    <p>Versatile actor excelling in both mainstream and parallel cinema.</p>
+                </div>
+            </div>
+
+            <div class="actor-card">
+                <div class="actor-image">
+                    <img src="chitrangada-singh.jpg" alt="Chitrangada Singh">
+                </div>
+                <div class="actor-info">
+                    <h3>Chitrangada Singh</h3>
+                    <p>Elegant actress known for her performances in films like Hazaaron Khwaishein Aisi.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-box">
+            <h2>More Jat Stars</h2>
+            <p>Explore the full list of Jat actors, models and filmmakers who have contributed to Indian cinema:</p>
+            <ul class="more-actors">
+                <li><a href="/home/Abhay_Deol" title="Abhay Deol">Abhay Deol</a></li>
+                <li><a href="/home/Esha_Deol" title="Esha Deol">Esha Deol</a></li>
+                <li><a href="/home/Mahima_Chaudhary" title="Mahima Chaudhary">Mahima Chaudhary</a></li>
+                <li><a href="/home/Yuvika_Chaudhary" title="Yuvika Chaudhary">Yuvika Chaudhary</a></li>
+                <li><a href="/home/Poonam_Dhillon" title="Poonam Dhillon">Poonam Dhillon</a></li>
+                <li><a href="/home/Sushant_Singh" title="Sushant Singh">Sushant Singh</a></li>
+                <li><a href="/home/Vindu_Dara_Singh" title="Vindu Dara Singh">Vindu Dara Singh</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JatUniversal.com. All rights reserved.</p>
+        <p>Developed by Aditya Choudhary</p>
+        <p>Follow us on <a href="https://www.youtube.com/channel/UCfcy8gXnlQni046i7pcBl_w" style="color: var(--secondary-color);">YouTube</a></p>
+    </footer>
